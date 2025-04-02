@@ -1,0 +1,52 @@
+- type: body
+  id: Taurie
+  name: "taurie"
+  root: torso
+  slots:
+    head:
+      part: HeadTaurie
+      connections:
+      - torso
+      organs:
+        brain: OrganGrayBrain
+        eyes: OrganGrayEyes
+        ears: OrganGrayEars
+        tongue: OrganGrayTongue
+        lungs: OrganGrayLungs
+    torso:
+      part: TorsoTaurie
+      connections:
+      - right_arm
+      - left_arm
+      - right_leg
+      - left_leg
+      organs:
+        heart: OrganGrayHeart
+        stomach: OrganGrayStomach
+        liver: OrganGrayLiver
+        kidneys: OrganGrayKidneys
+        appendix: OrganGrayAppendix
+    right_arm:
+      part: RightArmTaurie
+      connections:
+      - right_hand
+    left_arm:
+      part: LeftArmTaurie
+      connections:
+      - left_hand
+    right_hand:
+      part: RightHandTaurie
+    left_hand:
+      part: LeftHandTaurie
+    right_leg:
+      part: RightLegTaurie
+      connections:
+      - right_foot
+    left_leg:
+      part: LeftLegTaurie
+      connections:
+      - left_foot
+    right_foot:
+      part: RightFootTaurie
+    left_foot:
+      part: LeftFootTaurie
