@@ -17,7 +17,6 @@
       part: TorsoTaurie
       connections:
       - right_arm
-      - left_arm
       - right_leg
       - left_leg
       organs:
@@ -30,14 +29,8 @@
       part: RightArmTaurie
       connections:
       - right_hand
-    left_arm:
-      part: LeftArmTaurie
-      connections:
-      - left_hand
     right_hand:
       part: RightHandTaurie
-    left_hand:
-      part: LeftHandTaurie
     right_leg:
       part: RightLegTaurie
       connections:

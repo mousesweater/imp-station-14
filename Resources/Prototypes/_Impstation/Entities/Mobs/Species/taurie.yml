@@ -82,6 +82,11 @@
           32:
             sprite: _Impstation/Mobs/Species/Taurie/displacement.rsi
             state: back
+      mask:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Taurie/displacement.rsi
+            state: mask
   - type: Speech
     speechSounds: PVC
   - type: TypingIndicator
@@ -102,7 +107,6 @@
   - type: Body
     prototype: Taurie
   - type: Inventory
-    speciesId: taurie
     templateId: taurie
     displacements:
       head:
@@ -125,3 +129,8 @@
           32:
             sprite: _Impstation/Mobs/Species/Taurie/displacement.rsi
             state: back
+      mask:
+        sizeMaps:
+          32:
+            sprite: _Impstation/Mobs/Species/Taurie/displacement.rsi
+            state: mask
