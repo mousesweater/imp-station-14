@@ -1,0 +1,156 @@
+- type: species
+  id: Taurie
+  name: species-name-taurie
+  roundStart: true
+  prototype: MobTaurie
+  sprites: MobTaurieSprites
+  defaultSkinTone: "#4078E1"
+  markingLimits: MobTaurieMarkingLimits
+  dollPrototype: MobTaurieDummy
+  skinColoration: TintedHues
+  maleFirstNames: NamesGrayFirst
+  femaleFirstNames: NamesGrayFirst
+  lastNames: NamesGrayLast
+
+# The lack of a layer means that
+# this person cannot have round-start anything
+# applied to that layer. It has to instead
+# be defined as a 'custom base layer'
+# in either the mob's starting marking prototype,
+# or it has to be added in C#.
+- type: speciesBaseSprites
+  id: MobTaurieSprites
+  sprites:
+    Head: MobTaurieHead
+    Chest: MobTaurieTorso
+    Eyes: MobTaurieEyes
+    LArm: MobTaurieLArm
+    RArm: MobTaurieRArm
+    LHand: MobTaurieLHand
+    RHand: MobTaurieRHand
+    LLeg: MobTaurieLLeg
+    RLeg: MobTaurieRLeg
+    LFoot: MobTaurieLFoot
+    RFoot: MobTaurieRFoot
+
+- type: markingPoints
+  id: MobTaurieMarkingLimits
+  onlyWhitelisted: true
+  points:
+    Head:
+      points: 0
+      required: true
+    HeadTop:
+      points: 0
+      required: false
+    HeadSide:
+      points: 0
+      required: false
+    UndergarmentTop:
+      points: 0
+      required: false
+    UndergarmentBottom:
+      points: 0
+      required: false
+    Chest:
+      points: 0
+      required: false
+    Legs:
+      points: 0
+      required: false
+    Arms:
+      points: 0
+      required: false
+    Overlay:
+      points: 0
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobTaurieEyes
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: eyes
+
+- type: humanoidBaseSprite
+  id: MobTaurieHead
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: head
+
+- type: humanoidBaseSprite
+  id: MobTaurieHeadMale
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: head
+
+- type: humanoidBaseSprite
+  id: MobTaurieHeadFemale
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: head
+
+- type: humanoidBaseSprite
+  id: MobTaurieTorso
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: torso
+
+- type: humanoidBaseSprite
+  id: MobTaurieTorsoMale
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: torso
+
+- type: humanoidBaseSprite
+  id: MobTaurieTorsoFemale
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: torso
+
+- type: humanoidBaseSprite
+  id: MobTaurieLLeg
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobTaurieLArm
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobTaurieLHand
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobTaurieLFoot
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobTaurieRLeg
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobTaurieRArm
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobTaurieRHand
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobTaurieRFoot
+  baseSprite:
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: r_foot
