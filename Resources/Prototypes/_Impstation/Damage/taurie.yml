@@ -1,10 +1,11 @@
 - type: damageModifierSet
-  id: taurie
+  id: Taurie
   coefficients:
+    Shock: 0
     Blunt: 1.5
-    Slash: 1.5
-    Piercing: 1.5
-    Cold: .3
-    Heat: .3
-    Poison: 0.2
+    Slash: 1
+    Piercing: 1
+    Cold: 1
+    Heat: 1
+    Poison: 1
     Cellular: 1

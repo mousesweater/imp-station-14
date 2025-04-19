@@ -10,9 +10,7 @@
       organs:
         brain: OrganGrayBrain
         eyes: OrganGrayEyes
-        ears: OrganGrayEars
-        tongue: OrganGrayTongue
-        lungs: OrganGrayLungs
+        lungs: OrganCarpLungs
     torso:
       part: TorsoTaurie
       connections:
@@ -20,10 +18,10 @@
       - right_leg
       - left_leg
       organs:
-        heart: OrganGrayHeart
+        heart: OrganCarpHeart
         stomach: OrganGrayStomach
         liver: OrganGrayLiver
-        kidneys: OrganGrayKidneys
+        kidneys: OrganCarpKidneys
         appendix: OrganGrayAppendix
     right_arm:
       part: RightArmTaurie

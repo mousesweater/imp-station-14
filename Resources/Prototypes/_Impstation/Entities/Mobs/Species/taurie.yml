@@ -5,12 +5,30 @@
   id: BaseMobTaurie
   abstract: true
   components:
-  - type: Absorbable
-  - type: Hunger
-  - type: Thirst
-  - type: Icon
-    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
-    state: full
+  #FUCK AROUND ZONE
+  - type: Barotrauma
+    damage:
+      types:
+        blunt: 0 # immune to space
+  - type: MovementSpeedModifier
+    baseSprintSpeed: 5
+    baseWalkSpeed: 2
+    weightlessAcceleration: 1 # move more easily in space
+    weightlessFrictionNoInput: 0.2 # more control over movement in space
+    weightlessModifier: 1
+    OffGridFriction: 0.05
+  - type: Temperature
+    coldDamageThreshold: 0 # immune to space
+    currentTemperature: 310
+    specificHeat: 42
+    coldDamage:
+      types:
+        Cold : 0 # immune to space
+  - type: TemperatureSpeed
+    thresholds:
+      293: 1.0
+      280: 1.0
+      260: 1.0
   - type: Respirator
     damage:
       types:
@@ -18,6 +36,17 @@
     damageRecovery:
       types:
         Asphyxiation: -1.0
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      60: Critical
+      125: Dead
+  #RESPECT THE PROCESS
+  - type: Absorbable
+    biomassRestored: 0.5
+  - type: Icon
+    sprite: _Impstation/Mobs/Species/Taurie/parts.rsi
+    state: full
   - type: Sprite
     noRot: true
     drawdepth: Mobs
@@ -50,14 +79,14 @@
   - type: GrayAccent
   - type: Damageable
     damageContainer: Biological
-    damageModifierSet: Gray
+    damageModifierSet: Taurie
   - type: DamageVisuals
     damageOverlayGroups:
       Brute:
         sprite: Mobs/Effects/brute_damage.rsi
-        color: "#00ff04"
+        color: "#ffd000"
   - type: Bloodstream
-    bloodReagent: Radium
+    bloodReagent: Licoxide
   - type: Inventory
     speciesId: taurie
     templateId: taurie
