@@ -38,12 +38,14 @@
       - SimpleHostile
   - type: Speech
     speechVerb: LargeMob
+  - type: ReplacementAccent
+    accent: vrex
   - type: CombatMode
   - type: MobMover
   - type: InputMover
   - type: MovementSpeedModifier
-    baseWalkSpeed: .5
-    baseSprintSpeed: 1
+    baseWalkSpeed: .6
+    baseSprintSpeed: 1.1
   - type: Sprite
     sprite: _Impstation/Mobs/Aliens/vrex.rsi
     layers:
@@ -97,14 +99,17 @@
     biomassRestored: 0.8
   - type: Butcherable
     spawned:
-    - id: FoodMeatDragon
-      amount: 2
+    - id: FoodMeatRawBase
+      amount: 7
+    - id: ClothingOuterCoatVRexFurCoat
+      amount: 1
+      prob: 0.3
   - type: InteractionPopup
     successChance: 0.25 # It's no goose, but you better smell like carp.
     interactSuccessString: petting-success-vrex
     interactFailureString: petting-failure-vrex
     interactFailureSound:
-      path: _Impstation/Audio/Animals/vrex_roar.ogg
+      path: /Audio/_Impstation/Animals/vrex_roar.ogg
     soundPerceivedByOthers: false # A 75% chance for a loud roar would get old fast.
   - type: MeleeWeapon
     attackRate: .75
@@ -117,8 +122,8 @@
         Slash: 5
         Structural: 500
   - type: MeleeThrowOnHit
-    speed: 10
-    distance: 1
+    speed: 15
+    distance: 2
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepThud
@@ -137,9 +142,9 @@
     - FootstepSound
   - type: Puller
     needsHands: false
-  - type: Body #imp
+  - type: Body
     prototype: Animal
-#  - type: NightVision # EE
+#  - type: NightVision # implement if nightvision gets good, otherwise unneeded i think
 #    isActive: true
 #    toggleAction: null
 #    color: "#76898a"
@@ -157,20 +162,10 @@
         !type:DamageTypeTrigger
         damageType: Blunt
         damage: 2500
-      behaviors:
-      - !type:GibBehavior
-        recursive: false
+#      behaviors:
+#      - !type:GibBehavior
+#        recursive: false
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: VRex
 
-- type: entity
-  parent: BaseMobVRex
-  id: VRex
-  components:
-  - type: GhostRole
-    mindRoles:
-    - MindRoleVRex
-  - type: GuideHelp
-    guides:
-    - MinorAntagonists

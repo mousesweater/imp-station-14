@@ -21,7 +21,7 @@
 
 #Lone Op
 - type: entity
-  parent: MindRoleNukeops
+  parADent: MindRoleNukeops
   id: MindRoleNukeopsLone
   name: Lone Operative Role
   components:
