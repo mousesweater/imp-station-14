@@ -101,10 +101,10 @@
       amount: 2
   - type: InteractionPopup
     successChance: 0.25 # It's no goose, but you better smell like carp.
-    interactSuccessString: petting-success-dragon
-    interactFailureString: petting-failure-dragon
+    interactSuccessString: petting-success-vrex
+    interactFailureString: petting-failure-vrex
     interactFailureSound:
-      path: /Audio/Animals/space_dragon_roar.ogg
+      path: _Impstation/Audio/Animals/vrex_roar.ogg
     soundPerceivedByOthers: false # A 75% chance for a loud roar would get old fast.
   - type: MeleeWeapon
     attackRate: .75
@@ -170,7 +170,7 @@
   components:
   - type: GhostRole
     mindRoles:
-    - MindRoleDragon
+    - MindRoleVRex
   - type: GuideHelp
     guides:
     - MinorAntagonists
