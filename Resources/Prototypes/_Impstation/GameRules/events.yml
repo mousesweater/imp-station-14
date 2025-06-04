@@ -86,3 +86,17 @@
         - NamesBountyHunterTitle
         - NamesBountyHunter
         nameFormat: name-format-bounty-hunter
+
+# V-rex
+- type: entity
+  id: VRexSpawn
+  parent: BaseGameRule
+  components:
+  - type: StationEvent
+    earliestStart: 30
+    weight: 6.5
+    duration: null
+    minimumPlayers: 45 #you need an entire team onboard to blast the shit out of this thing
+    maxOccurrences: 1
+  - type: RandomSpawnRule
+    prototype: SpawnPointGhostVRex

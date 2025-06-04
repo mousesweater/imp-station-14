@@ -1,6 +1,6 @@
 - type: entity
   parent: [ SimpleMobBase ]
-  id: BaseMobVRex
+  id: MobVRex
   suffix: ""
   name: v-rex
   description: A brown and bear like predator, it eats wild boars. It lumbers around, even FinFin are eaten. It lives in the Tsubu-woods and in the valley
@@ -168,4 +168,3 @@
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: VRex
-
