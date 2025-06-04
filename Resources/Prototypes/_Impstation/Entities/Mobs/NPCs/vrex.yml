@@ -29,9 +29,9 @@
         true
       NavSmash: !type:Bool
         true
-  - type: RotationVisuals
-    defaultRotation: 90
-    horizontalRotation: 90
+#  - type: RotationVisuals
+#    defaultRotation: 90
+#    horizontalRotation: 90
   - type: NpcFactionMember
     factions:
       - SimpleHostile
