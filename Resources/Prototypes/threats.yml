@@ -42,4 +42,4 @@
 - type: ninjaHackingThreat
   id: VRex
   announcement: terror-vrex
-  rule: VRexSpawn
+  rule: VRexEvent
