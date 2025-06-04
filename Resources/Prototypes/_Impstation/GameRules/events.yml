@@ -87,16 +87,16 @@
         - NamesBountyHunter
         nameFormat: name-format-bounty-hunter
 
-# V-rex
 - type: entity
-  id: VRexSpawn
-  parent: BaseGameRule
+  id: VRexEvent
+  parent: BaseStationEventShortDelay
   components:
   - type: StationEvent
-    earliestStart: 30
-    weight: 6.5
-    duration: null
-    minimumPlayers: 45 #you need an entire team onboard to blast the shit out of this thing
-    maxOccurrences: 1
-  - type: RandomSpawnRule
-    prototype: SpawnPointGhostVRex
+    weight: 6.5 
+    duration: 1
+    minimumPlayers: 50
+    maxOccurrences: 1 # imagine 2 of them
+  - type: VentCrittersRule 
+    specialEntries:
+    - id: SpawnPointGhostVRex
+      prob: 0 # this ensures that only one spawner will be created

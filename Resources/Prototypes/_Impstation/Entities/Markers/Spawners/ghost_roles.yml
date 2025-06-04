@@ -35,13 +35,12 @@
     description: ghost-role-information-vrex-desc
     rules: ghost-role-information-antagonist-rules
     mindRoles:
-    - MindRoleGhostRoleSoloAntagonist
-    raffle:
-      settings: default
+    - MindRoleGhostRoleTeamAntagonist
   - type: GhostRoleMobSpawner
     prototype: MobVRex
   - type: Sprite
+    sprite: Markers/jobs.rsi
     layers:
       - state: green
       - sprite: _Impstation/Mobs/Aliens/vrex.rsi
-        state: dead
+        state: alive

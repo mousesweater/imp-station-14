@@ -1,7 +1,6 @@
 - type: entity
   parent: [ SimpleMobBase ]
-  id: MobVRex
-  suffix: ""
+  id: BaseMobVRex
   name: v-rex
   description: A brown and bear like predator, it eats wild boars. It lumbers around, even FinFin are eaten. It lives in the Tsubu-woods and in the valley
   abstract: true
@@ -99,7 +98,7 @@
     biomassRestored: 0.8
   - type: Butcherable
     spawned:
-    - id: FoodMeatRawBase
+    - id: FoodMeat
       amount: 7
     - id: ClothingOuterCoatVRexFurCoat
       amount: 1
@@ -118,8 +117,8 @@
       path: /Audio/Effects/Footsteps/largethud.ogg
     damage:
       types:
-        Blunt: 45
-        Slash: 5
+        Blunt: 40
+        Slash: 10
         Structural: 500
   - type: MeleeThrowOnHit
     speed: 15
@@ -168,3 +167,31 @@
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: VRex
+  - type: SnailSprint
+    action: ActionRush
+    thirstCost: 0
+    sprintLength: 2
+    speedBoost: 3
+    #reagentProduced: Mucin
+
+- type: entity
+  id: ActionRush
+  name: Rage Rush
+  description: Rush forward with a sudden boost!
+  components:
+  - type: InstantAction
+    icon: Interface/Actions/slime.png
+    event: !type:SnailSprintActionEvent
+    useDelay: 100
+    priority: 3
+
+- type: entity
+  parent: BaseMobVRex
+  id: MobVRex
+  components:
+  - type: GhostRole
+    mindRoles:
+    - MindRoleGhostRoleSoloAntagonist
+  - type: GuideHelp
+    guides:
+    - MinorAntagonists
