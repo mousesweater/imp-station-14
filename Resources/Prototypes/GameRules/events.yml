@@ -45,6 +45,7 @@
     - id: OppaSpawnLight #imp
     - id: OppaSpawnNight #imp
     - id: SyndicateInfiltratorSpawn # imp
+    - id: VRexSpawn #imp
 
 - type: entityTable
   id: SleeperlessAntagEventsTable
@@ -69,6 +70,7 @@
     - id: OppaSpawnLight #imp
     - id: OppaSpawnLight #imp
     - id: SyndicateInfiltratorSpawn # imp
+    - id: VRexSpawn #imp
 
 - type: entity
   id: BaseStationEvent
