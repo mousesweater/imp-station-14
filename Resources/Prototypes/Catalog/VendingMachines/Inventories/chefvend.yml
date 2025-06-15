@@ -13,7 +13,7 @@
     FoodCondimentBottleVinegar: 4
     ReagentContainerOliveoil: 4
     ReagentContainerMayo: 2
-    ChefCubeBox: 1 #imp
+    #VariantCubeBox: #imp #go buy your meat from cargo if you want it fresh
     FoodContainerEgg: 2
     DrinkMilkCarton: 4
     DrinkSoyMilkCarton: 2
