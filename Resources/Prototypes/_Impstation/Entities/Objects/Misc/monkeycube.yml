@@ -1,0 +1,14 @@
+- type: entity
+  parent: BoxCardboard
+  name: chef cube box
+  id: ChefCubeBox
+  description: All sorts of livestock, packed into a portable dehydrated form. Just add water!
+  components:
+  - type: StorageFill
+    contents:
+      - id: MonkeyCubeWrapped
+        amount: 8
+  - type: Sprite
+    sprite: Objects/Misc/monkeycube.rsi
+    state: box_variant
+  - type: EntityTableContainerFill
