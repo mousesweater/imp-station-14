@@ -30,6 +30,10 @@
       weight: 2
     - id: FinfinCube
       weight: 2
+    - id: LizardCube
+      weight: 4
+    - id: PenguinCube
+      weight: 4
     - id: SnailCube
       weight: 5
     - id: MouseCube

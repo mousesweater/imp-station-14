@@ -79,3 +79,21 @@
   - type: Rehydratable
     possibleSpawns:
     - MobXenoPraetorian
+
+- type: entity
+  parent: RehydratableAnimalCube
+  id: LizardCube
+  name: lizard cube
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - MobLizard
+
+- type: entity
+  parent: RehydratableAnimalCube
+  id: PenguinCube
+  name: penguin cube
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - MobPenguin
