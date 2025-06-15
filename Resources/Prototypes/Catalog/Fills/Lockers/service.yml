@@ -36,7 +36,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: VariantCubeBox
+      #- id: VariantCubeBox #imp, cutting down on animal cubes
       - id: BoxMousetrap
         amount: 2
       - id: SprayBottleWater
