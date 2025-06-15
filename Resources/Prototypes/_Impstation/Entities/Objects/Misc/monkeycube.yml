@@ -40,6 +40,8 @@
       weight: 8
     - id: CowCube
       weight: 10
+    - id: GoatCube
+      weight: 10
     - id: PigCube
       weight: 12
     - id: ChickenCube
