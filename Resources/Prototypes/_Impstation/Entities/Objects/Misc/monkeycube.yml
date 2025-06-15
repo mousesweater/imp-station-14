@@ -5,7 +5,7 @@
   description: All sorts of livestock, packed into a portable dehydrated form. Just add water!
   components:
   - type: Sprite
-    sprite: _Impstation/Objects/Misc/chefcube.rsi
+    sprite: _Impstation/Objects/Misc/chefcubes.rsi
     state: box
   - type: EntityTableContainerFill
     containers:
