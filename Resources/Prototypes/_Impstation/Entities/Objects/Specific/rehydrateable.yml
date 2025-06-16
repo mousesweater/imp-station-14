@@ -97,3 +97,23 @@
   - type: Rehydratable
     possibleSpawns:
     - MobPenguin
+
+# zombie infection-less here
+
+- type: entity
+  parent: MonkeyCube
+  id: MonkeyCubeSanitized
+  name: sanitized monkey cube
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - MobMonkeySanitized
+
+- type: entity
+  parent: KoboldCube
+  id: KoboldCubeSanitized
+  name: sanitized kobold cube
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - MobKoboldSanitized

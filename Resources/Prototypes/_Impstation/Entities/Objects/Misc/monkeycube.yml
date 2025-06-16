@@ -21,7 +21,7 @@
   table: !type:GroupSelector
     children:
     - id: XenoCube
-      weight: 1
+      weight: .5
     - id: SpaceCarpCube
       weight: 1
     - id: BearCube
@@ -38,6 +38,10 @@
       weight: 5
     - id: MouseCube
       weight: 5
+    - id: MonkeyCube
+      weight: 6
+    - id: KoboldCube
+      weight: 6
     - id: DuckCube
       weight: 8
     - id: CrabCube
