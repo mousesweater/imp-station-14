@@ -73,6 +73,16 @@
   loadouts:
   - LoadoutTankHarnessAquaticCommandWithOuterwear
 
+# breath tool
+- type: loadoutGroup
+  id: GroupSpeciesBreathToolCommand
+  name: loadout-group-breath-tool-command
+  minLimit: 1
+  maxLimit: 1
+  hidden: true
+  loadouts:
+  - LoadoutSpeciesBreathToolCommand
+
 # vaporizer
 - type: loadoutGroup
   id: GroupBreathToolDecapoid
@@ -334,6 +344,7 @@
   - WhiteDressShoes
   - BlackCommandHeels
   - BlueCommandHeels
+  - HoPWinterBoots # Delta-V
 
 - type: loadoutGroup
   id: AdminAssistantBackpack
@@ -664,6 +675,7 @@
   minLimit: 0
   loadouts:
   - ScarfPurple
+  - FeatherBoa
 
 - type: loadoutGroup
   id: MusicianShoes
@@ -674,13 +686,18 @@
   - BlackHeels
 
 - type: loadoutGroup
-  id: ReporterJumpsuit
-  name: loadout-group-reporter-jumpsuit
+  id: MusicianHead
+  name: loadout-group-musician-head
+  minLimit: 0
   loadouts:
-  - ReporterJumpsuit
-  - JournalistJumpsuit
-  - ClothingUniformBrosBlazer
-  - ClothingUniformBrosBlazerSkirt
+  - MusicianShako
+
+- type: loadoutGroup
+  id: MusicianGloves
+  name: loadout-group-musician-gloves
+  minLimit: 0
+  loadouts:
+  - MusicianSingerGloves
 
 - type: loadoutGroup
   id: ReporterNeck
@@ -752,7 +769,7 @@
   name: loadout-group-salvage-specialist-neck
   minLimit: 0
   loadouts:
-  - MinerCloak
+#  - MinerCloak # upstream removed it :(
   - DrillerCape
   - SaMantle
   - ScarfBrown
@@ -1077,7 +1094,7 @@
   - ArmorVestCompact
   - PlateCarrier # DeltaV
   - DuraVest # DeltaV
-  - BomberSecurity
+  - BrigmedicBomber
 
 - type: loadoutGroup
   id: BrigmedicShoes
