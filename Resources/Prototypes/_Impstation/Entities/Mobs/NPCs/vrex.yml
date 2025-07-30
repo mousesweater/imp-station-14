@@ -164,7 +164,7 @@
     damageContainer: Biological
     damageModifierSet: VRex
   - type: Stamina
-    critthreshold: 300
+    critThreshold: 300
 # currently snailsprint doesnt allow for usedelay! will be commented out until i get someone who knows c# for help
   #- type: SnailSprint
   #  action: ActionSlime #ActionRush
