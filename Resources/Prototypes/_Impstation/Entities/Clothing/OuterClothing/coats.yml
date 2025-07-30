@@ -520,7 +520,7 @@
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatVRexFurCoat
   name: v-rex fur coat
-  description: The bristly ridge of the v-rex makes this more uncomfortable to wear than anything..
+  description: The stiff fur of the v-rex makes this more uncomfortable to wear than anything..
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/OuterClothing/Coats/vrex_fur_coat.rsi
@@ -528,3 +528,9 @@
     slots:
       - OUTERCLOTHING
     sprite: _Impstation/Clothing/OuterClothing/Coats/vrex_fur_coat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Piercing: 0.95
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9

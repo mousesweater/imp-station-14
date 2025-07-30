@@ -29,9 +29,6 @@
         true
       NavSmash: !type:Bool
         true
-#  - type: RotationVisuals
-#    defaultRotation: 90
-#    horizontalRotation: 90
   - type: NpcFactionMember
     factions:
       - SimpleHostile
@@ -76,7 +73,7 @@
     speedModifierThresholds:
       1100: 0.7
       1400: 0.5
-  - type: StatusEffects # Overwriting basesimplemob to remove flash, getting flashed as dragon just feelsbad
+  - type: StatusEffects # copied from dragon, flash protection. it's slow enough already.
     allowed:
     - SlowedDown
     - Stutter
@@ -104,7 +101,7 @@
       amount: 1
       prob: 0.3
   - type: InteractionPopup
-    successChance: 0.25 # It's no goose, but you better smell like carp.
+    successChance: 0.25 # grahhh
     interactSuccessString: petting-success-vrex
     interactFailureString: petting-failure-vrex
     interactFailureSound:
@@ -143,12 +140,12 @@
     needsHands: false
   - type: Body
     prototype: Animal
-#  - type: NightVision # implement if nightvision gets good, otherwise unneeded i think
-#    isActive: true
-#    toggleAction: null
-#    color: "#76898a"
-#    activateSound: null
-#    deactivateSound: null
+  - type: NightVision # implement if nightvision gets good, otherwise unneeded i think
+    isActive: true
+    toggleAction: null
+    color: "#b4d0d1"
+    activateSound: null
+    deactivateSound: null
   - type: Barotrauma
     damage:
       types:
@@ -167,23 +164,25 @@
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: VRex
-  - type: SnailSprint
-    action: ActionRush
-    thirstCost: 0
-    sprintLength: 2
-    speedBoost: 3
+# currently snailsprint doesnt allow for usedelay! will be commented out until i get someone who knows c# for help
+  #- type: SnailSprint
+  #  action: ActionSlime #ActionRush
+  #  thirstCost: 0
+  #  sprintLength: 2
+  #  speedBoost: 3
     #reagentProduced: Mucin
 
-- type: entity
-  id: ActionRush
-  name: Rage Rush
-  description: Rush forward with a sudden boost!
-  components:
-  - type: InstantAction
-    icon: Interface/Actions/slime.png
-    event: !type:SnailSprintActionEvent
-    useDelay: 100
-    priority: 3
+#- type: entity 
+#  parent: BaseAction
+#  id: ActionRush
+#  name: Rage Rush
+#  description: Rush forward with a sudden boost!
+#  components:
+#  - type: Action
+#    icon: Interface/Actions/slime.png
+#    useDelay: 100
+#  - type: InstantAction
+#    event: !type:SnailSprintActionEvent
 
 - type: entity
   parent: BaseMobVRex
