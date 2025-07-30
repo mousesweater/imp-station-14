@@ -2,7 +2,7 @@
   parent: [ SimpleMobBase ]
   id: BaseMobVRex
   name: v-rex
-  description: A brown and bear like predator, it eats wild boars. It lumbers around, even FinFin are eaten. It lives in the Tsubu-woods and in the valley
+  description: A brown and bear like predator, it eats wild boars. It lumbers around, even FinFin are eaten. It lives in the Tsubu-woods and in the valley. #taken directly from the finfin fanpage, i kinda love it too much to change it. feel free to convince me otherwise.
   abstract: true
   components:
   - type: Bloodstream 
@@ -112,6 +112,8 @@
     altDisarm: false
     soundHit:
       path: /Audio/Effects/Footsteps/largethud.ogg
+      params:
+        variation: 0.100
     damage:
       types:
         Blunt: 40
@@ -140,12 +142,12 @@
     needsHands: false
   - type: Body
     prototype: Animal
-  - type: NightVision # implement if nightvision gets good, otherwise unneeded i think
-    isActive: true
-    toggleAction: null
-    color: "#b4d0d1"
-    activateSound: null
-    deactivateSound: null
+#  - type: Nightvision  #implement if nightvision gets good, the v-rex DOES spawn in vents and might end up in a maints, but i dislike nightvison toggle and the tint
+#    isActive: true
+#    toggleAction: null
+#    color: "#b4d0d1"
+#    activateSound: null
+#    deactivateSound: null
   - type: Barotrauma
     damage:
       types:
@@ -158,12 +160,11 @@
         !type:DamageTypeTrigger
         damageType: Blunt
         damage: 2500
-#      behaviors:
-#      - !type:GibBehavior
-#        recursive: false
   - type: Damageable
     damageContainer: Biological
     damageModifierSet: VRex
+  - type: Stamina
+    critthreshold: 300
 # currently snailsprint doesnt allow for usedelay! will be commented out until i get someone who knows c# for help
   #- type: SnailSprint
   #  action: ActionSlime #ActionRush
