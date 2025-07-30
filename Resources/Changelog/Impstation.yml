@@ -1,43 +1,4 @@
 ﻿Entries:
-- author: starlighthowls
-  changes:
-  - message: a normal new plushie!
-    type: Add
-  id: 1593
-  time: '2025-04-30T20:14:01.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2340
-- author: jtfg-dev
-  changes:
-  - message: 'Cyborgs now get the pronouns and detailed examine text set for the character
-      you join with, like any other job. (NOTE: For dedicated cyborg characters, if
-      you haven''t already, you should make a unique profile!)'
-    type: Add
-  - message: Altered the examine description of cyborgs to minimize misgendering.
-    type: Tweak
-  - message: Small piece of broken grammar on partly-consumed bodies.
-    type: Fix
-  id: 1594
-  time: '2025-04-30T20:13:04.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2335
-- author: CombustibleToast
-  changes:
-  - message: Atmos techs can now wear the engineering beret (with sufficient department
-      playtime)
-    type: Add
-  id: 1595
-  time: '2025-04-30T20:14:36.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2362
-- author: DVDPlayerOfDiscordFame
-  changes:
-  - message: you can now choose a Gunpet and a box of snap pops as your "pistol" and
-      "ammo" as a secoff.
-    type: Add
-  - message: security workers no longer have the opportunity to forget their service
-      weapon.
-    type: Tweak
-  id: 1596
-  time: '2025-05-01T07:26:11.0000000+00:00'
-  url: https://github.com/impstation/imp-station-14/pull/2368
 - author: crekulon
   changes:
   - message: The kodepiiae 'ring' emote now may play a new sound.
@@ -4212,3 +4173,32 @@
   id: 2092
   time: '2025-07-29T10:03:28.0000000+00:00'
   url: https://github.com/impstation/imp-station-14/pull/3183
+- author: DVDPlayerOfDiscordFame
+  changes:
+  - message: Mk 93 + 92HB sprites get a couple little updates
+    type: Tweak
+  id: 2093
+  time: '2025-07-29T20:52:08.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3191
+- author: Jellvisk
+  changes:
+  - message: steel wood walls resprited
+    type: Tweak
+  id: 2094
+  time: '2025-07-29T21:19:59.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3190
+- author: yesteryuri
+  changes:
+  - message: Doctors won't be pressured to wear clown shoes by default, and other
+      similar cases.
+    type: Fix
+  id: 2095
+  time: '2025-07-30T08:34:16.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3196
+- author: yesteryuri
+  changes:
+  - message: Bottle boxes have three more bottles
+    type: Tweak
+  id: 2096
+  time: '2025-07-30T08:35:18.0000000+00:00'
+  url: https://github.com/impstation/imp-station-14/pull/3197
