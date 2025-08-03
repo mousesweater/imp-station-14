@@ -334,11 +334,11 @@
   description: Special hardsuit helmet, made for the chief engineer of the station.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/engineering-white.rsi
+    sprite: _Impstation/Clothing/Head/Hardsuits/engineering-white.rsi #imp
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/engineering-white.rsi
+    sprite: _Impstation/Clothing/Head/Hardsuits/engineering-white.rsi #imp
   - type: PointLight
-    color: "#daffad"
+    color: "#E5FFA9"
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -346,7 +346,7 @@
     reduction: 0.2
   - type: Tag
     tags:
-    - CorgiWearable
+#    - CorgiWearable #imp #No.
     - WhitelistChameleon
 
 #Chief Medical Officer's Hardsuit
