@@ -33,9 +33,9 @@
       head-vox:
       - state: equipped-head-light-vox
         shader: unshaded
-#      head-dog:                          # Imp  # No.
-#      - state: equipped-head-light-dog
-#        shader: unshaded
+      head-dog:
+      - state: equipped-head-light-dog
+        shader: unshaded
   - type: Clothing
     clothingVisuals:
       head:
@@ -46,12 +46,12 @@
       - state: equipped-head-vox
       - state: equipped-head-unshaded-vox
         shader: unshaded
-#      head-dog:          # Imp  # No.
-#      - state: equipped-head-dog
-#      - state: equipped-head-unshaded-dog
-#        shader: unshaded
+      head-dog:
+      - state: equipped-head-dog
+      - state: equipped-head-unshaded-dog
+        shader: unshaded
   - type: PointLight
-    color: "#76FFD4"
+    color: "#76FFD4" #imp
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -62,7 +62,7 @@
     reduction: 0.2
   - type: Tag
     tags:
-#    - CorgiWearable   #Imp       # No
+    - CorgiWearable
     - WhitelistChameleon
 
 #Engineering Hardsuit
@@ -74,16 +74,50 @@
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Head/Hardsuits/engineering.rsi #imp
+    layers:
+    - state: icon
+    - state: icon-unshaded
+      shader: unshaded
+    - state: light-overlay
+      visible: false
+      shader: unshaded
+      map: [ "light" ]
+  - type: HandheldLight
+    addPrefix: false
+  - type: ToggleableVisuals
+    spriteLayer: light
+    clothingVisuals:
+      head:
+      - state: equipped-head-light
+        shader: unshaded
+      head-vox:
+      - state: equipped-head-light-vox
+        shader: unshaded
+      head-dog:
+      - state: equipped-head-light-dog
+        shader: unshaded
   - type: Clothing
-    sprite: _Impstation/Clothing/Head/Hardsuits/engineering.rsi #imp
+    clothingVisuals:
+      head:
+      - state: equipped-head
+      - state: equipped-head-unshaded
+        shader: unshaded
+      head-vox:
+      - state: equipped-head-vox
+      - state: equipped-head-unshaded-vox
+        shader: unshaded
+      head-dog:
+      - state: equipped-head-dog
+      - state: equipped-head-unshaded-dog
+        shader: unshaded
   - type: PointLight
-    color: "#E5FFA9"
+    color: "#E5FFA9" #imp
   - type: PressureProtection
     highPressureMultiplier: 0.1
     lowPressureMultiplier: 1000
   - type: Tag
     tags:
-#    - CorgiWearable   # Imp    # No.
+    - CorgiWearable
     - WhitelistChameleon
 
 #Spationaut Hardsuit (imp edits to fix rsi)
@@ -335,10 +369,44 @@
   components:
   - type: Sprite
     sprite: _Impstation/Clothing/Head/Hardsuits/engineering-white.rsi #imp
+    layers:
+    - state: icon
+    - state: icon-unshaded
+      shader: unshaded
+    - state: light-overlay
+      visible: false
+      shader: unshaded
+      map: [ "light" ]
+  - type: HandheldLight
+    addPrefix: false
+  - type: ToggleableVisuals
+    spriteLayer: light
+    clothingVisuals:
+      head:
+      - state: equipped-head-light
+        shader: unshaded
+      head-vox:
+      - state: equipped-head-light-vox
+        shader: unshaded
+      head-dog:
+      - state: equipped-head-light-dog
+        shader: unshaded
   - type: Clothing
-    sprite: _Impstation/Clothing/Head/Hardsuits/engineering-white.rsi #imp
+    clothingVisuals:
+      head:
+      - state: equipped-head
+      - state: equipped-head-unshaded
+        shader: unshaded
+      head-vox:
+      - state: equipped-head-vox
+      - state: equipped-head-unshaded-vox
+        shader: unshaded
+      head-dog:
+      - state: equipped-head-dog
+      - state: equipped-head-unshaded-dog
+        shader: unshaded
   - type: PointLight
-    color: "#F9FFC9"
+    color: "#F9FFC9" #imp
   - type: PressureProtection
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
@@ -346,7 +414,7 @@
     reduction: 0.2
   - type: Tag
     tags:
-#    - CorgiWearable #imp #No.
+    - CorgiWearable
     - WhitelistChameleon
 
 #Chief Medical Officer's Hardsuit

@@ -43,7 +43,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitAtmos
   - type: Tag
     tags:
-#    - CorgiWearable      # Imp   # No...
+    - CorgiWearable      
     - Hardsuit
     - WhitelistChameleon
 
@@ -85,7 +85,7 @@
     clothingPrototype: ClothingHeadHelmetHardsuitEngineering
   - type: Tag
     tags:
-#    - CorgiWearable      # Imp     # No
+    - CorgiWearable      
     - Hardsuit
     - WhitelistChameleon
 
@@ -434,7 +434,7 @@
   # end imp edits #
   - type: Tag
     tags:
-#    - CorgiWearable #imp #No.
+    - CorgiWearable
     - Hardsuit
     - WhitelistChameleon
 
