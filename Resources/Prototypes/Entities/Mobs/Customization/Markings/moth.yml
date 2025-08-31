@@ -448,9 +448,9 @@
     moffra_secondary_behind: TailBehind
     moffra_secondary_front: TailBehindBackpack
   colorLinks:
-    moffra_secondary_behind: moffra_neck_secondary
     moffra_primary_behind: moffra_primary_front
     moffra_secondary_behind: moffra_secondary_front
+    moffra_neck_secondary: moffra_secondary_front
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: moffra_neck
@@ -583,11 +583,8 @@
     striped_neck: TailBehindBackpack
     striped_primary_behind: TailBehind
     striped_primary_front: TailBehindBackpack
-    striped_secondary_behind: TailBehind
-    striped_secondary_front: TailBehindBackpack
   colorLinks:
     striped_primary_behind: striped_primary_front
-    striped_secondary_behind: striped_secondary_front
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: striped_neck
@@ -595,10 +592,6 @@
     state: striped_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: striped_primary_front
-  - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: striped_secondary_behind
-  - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: striped_secondary_front
 
 - type: marking
   id: MothWingsSwirly
