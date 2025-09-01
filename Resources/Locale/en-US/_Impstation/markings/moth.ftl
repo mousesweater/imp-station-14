@@ -262,81 +262,81 @@ marking-WingsPyrausta-pyr_stripes_front = Stripes
 
 # Tail, upstream variations
 
-marking-MothWingsDefault-default = Wing
-marking-MothWingsDefault = Wings (Default)
+marking-MothWingsDefault-default_neck = Neck
+marking-MothWingsDefault-default_primary_front = Wing
 
-marking-MothWingsCharred-charred = Wing
-marking-MothWingsCharred = Wings (Charred)
+marking-MothWingsCharred-charred_neck = Neck
+marking-MothWingsCharred-charred_primary_front = Wing
 
-marking-MothWingsDbushy-dbushy_primary = Primary
-marking-MothWingsDbushy-dbushy_secondary = Secondary
-marking-MothWingsDbushy = Wings (Dark & Bushy)
+marking-MothWingsDbushy-dbushy_neck = Neck
+marking-MothWingsDbushy-dbushy_primary_front = Primary
+marking-MothWingsDbushy-dbushy_secondary_front = Secondary
 
-marking-MothWingsDeathhead-deathhead_primary = Primary
-marking-MothWingsDeathhead-deathhead_secondary = Secondary
-marking-MothWingsDeathhead = Wings (Death's-Head)
+marking-MothWingsDeathhead-deathhead_neck = Neck
+marking-MothWingsDeathhead-deathhead_primary_front = Primary
+marking-MothWingsDeathhead-deathhead_secondary_front = Secondary
 
-marking-MothWingsFan-fan = Wing
-marking-MothWingsFan = Wings (Fan)
+marking-MothWingsFan-dfan_neck = Neck
+marking-MothWingsFan-fan_primary_front = Wing
 
-marking-MothWingsDfan-dfan = Wing
-marking-MothWingsDfan = Wings (Dark & Fan)
+marking-MothWingsDfan-dfan_neck = Neck
+marking-MothWingsDfan-dfan_primary_front = Wing
 
-marking-MothWingsFeathery-feathery = Wing
-marking-MothWingsFeathery = Wings (Feathery)
+marking-MothWingsFeathery-feathery_neck = Neck
+marking-MothWingsFeathery-feathery_primary_front = Wing
 
-marking-MothWingsFirewatch-firewatch_primary = Primary
-marking-MothWingsFirewatch-firewatch_secondary = Secondary
-marking-MothWingsFirewatch = Wings (Firewatch)
+marking-MothWingsFirewatch-firewatch_neck = Neck
+marking-MothWingsFirewatch-firewatch_primary_front = Primary
+marking-MothWingsFirewatch-firewatch_secondary_front = Secondary
 
-marking-MothWingsGothic-gothic = Wing
-marking-MothWingsGothic = Wings (Gothic)
+marking-MothWingsGothic-gothic_neck = Neck
+marking-MothWingsGothic-gothic_primary_front = Wing
 
-marking-MothWingsJungle-jungle = Wing
-marking-MothWingsJungle = Wings (Jungle)
+marking-MothWingsJungle-jungle_neck = Neck
+marking-MothWingsJungle-jungle_primary_front = Wing
 
-marking-MothWingsLadybug-ladybug = Wing
-marking-MothWingsLadybug = Wings (Ladybug)
+marking-MothWingsLadybug-ladybug_neck = Neck
+marking-MothWingsLadybug-ladybug_primary_front = Wing
 
-marking-MothWingsMaple-maple_primary = Primary
-marking-MothWingsMaple-maple_secondary = Secondary
-marking-MothWingsMaple = Wings (Maple)
+marking-MothWingsMaple-maple_neck = Neck
+marking-MothWingsMaple-maple_primary_front = Primary
+marking-MothWingsMaple-maple_secondary_front = Secondary
 
-marking-MothWingsMoffra-moffra_primary = Primary
-marking-MothWingsMoffra-moffra_secondary = Secondary
-marking-MothWingsMoffra = Wings (Moffra)
+marking-MothWingsMoffra-moffra_neck = Neck
+marking-MothWingsMoffra-moffra_primary_front = Primary
+marking-MothWingsMoffra-moffra_secondary_front = Secondary
 
-marking-MothWingsOakworm = Wings (Oak Worm)
-marking-MothWingsOakworm-oakworm = Wing
+marking-MothWingsOakworm-oakworm_neck = Neck
+marking-MothWingsOakworm-oakworm_primary_front = Wing
 
-marking-MothWingsPlasmafire = Wings (Plasmafire)
-marking-MothWingsPlasmafire-plasmafire_primary = Primary
-marking-MothWingsPlasmafire-plasmafire_secondary = Secondary
+marking-MothWingsPlasmafire-plasmafire_neck = Neck
+marking-MothWingsPlasmafire-plasmafire_primary_front = Primary
+marking-MothWingsPlasmafire-plasmafire_secondary_front = Secondary
 
-marking-MothWingsPointy = Wings (Pointy)
-marking-MothWingsPointy-pointy = Wing
+marking-MothWingsPointy-pointy_neck = Neck
+marking-MothWingsPointy-pointy_primary_front = Wing
 
-marking-MothWingsRoyal = Wings (Royal)
-marking-MothWingsRoyal-royal_primary = Primary
-marking-MothWingsRoyal-royal_secondary = Secondary
+marking-MothWingsRoyal-royal_neck = Neck
+marking-MothWingsRoyal-royal_primary_front = Primary
+marking-MothWingsRoyal-royal_secondary_front = Secondary
 
-marking-MothWingsStellar = Wings (Stellar)
-marking-MothWingsStellar-stellar = Wing
+marking-MothWingsStellar-stellar_neck = Neck
+marking-MothWingsStellar-stellar_primary_front = Wing
 
-marking-MothWingsStriped = Wings (Striped)
-marking-MothWingsStriped-striped = Wing
+marking-MothWingsStriped-striped_neck = Neck
+marking-MothWingsStriped-striped_primary_front = Wing
 
-marking-MothWingsSwirly = Wings (Swirly)
-marking-MothWingsSwirly-swirly = Wing
+marking-MothWingsSwirly-swirly_neck = Neck
+marking-MothWingsSwirly-swirly_primary_front = Wing
 
-marking-MothWingsWhitefly = Wings (White Fly)
-marking-MothWingsWhitefly-whitefly = Wing
+marking-MothWingsWhitefly-whitefly_neck = Neck
+marking-MothWingsWhitefly-whitefly_primary_front = Wing
 
-marking-MothWingsWitchwing = Wings (Witch Wing)
-marking-MothWingsWitchwing-witchwing = Wing
+marking-MothWingsWitchwing-witchwing_neck = Neck
+marking-MothWingsWitchwing-witchwing_primary_front = Wing
 
-marking-MothWingsUnderwing = Wings (Underwing)
-marking-MothWingsUnderwing-underwing_primary = Primary
-marking-MothWingsUnderwing-underwing_secondary = Secondary
+marking-MothWingsUnderwing-undering_neck = Neck
+marking-MothWingsUnderwing-underwing_primary_front = Primary
+marking-MothWingsUnderwing-underwing_secondary_front = Secondary
 
 # RArmExtension
