@@ -185,8 +185,11 @@
     default_neck: TailBehindBackpack
     default_primary_behind: TailBehind
     default_primary_front: TailBehindBackpack
+    default_secondary_behind: TailBehind
+    default_secondary_front: TailBehindBackpack
   colorLinks:
     default_primary_behind: default_primary_front
+    default_secondary_behind: default_secondary_front
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: default_neck
@@ -194,6 +197,10 @@
     state: default_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: default_primary_front
+  - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
+    state: default_secondary_behind
+  - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
+    state: default_secondary_front
 
 - type: marking
   id: MothWingsCharred
@@ -275,8 +282,11 @@
     fan_neck: TailBehindBackpack
     fan_primary_behind: TailBehind
     fan_primary_front: TailBehindBackpack
+    fan_secondary_behind: TailBehind
+    fan_secondary_front: TailBehindBackpack
   colorLinks:
     fan_primary_behind: fan_primary_front
+    fan_secondary_behind: fan_secondary_front
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: fan_neck
@@ -284,6 +294,10 @@
     state: fan_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: fan_primary_front
+  - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
+    state: fan_secondary_behind
+  - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
+    state: fan_secondary_front
 
 - type: marking
   id: MothWingsDfan
@@ -294,8 +308,11 @@
     dfan_neck: TailBehindBackpack
     dfan_primary_behind: TailBehind
     dfan_primary_front: TailBehindBackpack
+    dfan_secondary_behind: TailBehind
+    dfan_secondary_front: TailBehindBackpack
   colorLinks:
     dfan_primary_behind: dfan_primary_front
+    dfan_secondary_behind: dfan_secondary_front
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: dfan_neck
@@ -303,6 +320,10 @@
     state: dfan_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: dfan_primary_front
+  - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
+    state: dfan_secondary_behind
+  - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
+    state: dfan_secondary_front
 
 - type: marking
   id: MothWingsFeathery
@@ -358,8 +379,11 @@
     gothic_neck: TailBehindBackpack
     gothic_primary_behind: TailBehind
     gothic_primary_front: TailBehindBackpack
+    gothic_secondary_behind: TailBehind
+    gothic_secondary_front: TailBehindBackpack
   colorLinks:
     gothic_primary_behind: gothic_primary_front
+    gothic_secondary_behind: gothic_secondary_front
   sprites:
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: gothic_neck
@@ -367,6 +391,10 @@
     state: gothic_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: gothic_primary_front
+  - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
+    state: gothic_secondary_behind
+  - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
+    state: gothic_secondary_front
 
 - type: marking
   id: MothWingsJungle

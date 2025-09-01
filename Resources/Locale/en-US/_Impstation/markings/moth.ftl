@@ -206,6 +206,7 @@ marking-MothBeetleTail = Wings (Junebug)
 marking-MothBeetleTail-beetle_neck = Neck
 marking-MothBeetleTail-beetle_primary_front = Outline
 marking-MothBeetleTail-beetle_secondary_front = Wings
+marking-MothBeetleTail-beetle_tertiary_front = Inner wings
 
 marking-MothFirefly = Wings (Firefly Underlay)
 marking-MothFirefly-firefly_neck = Neck
@@ -250,7 +251,7 @@ marking-WingsDragonfly-dragonfly_neck = Neck
 marking-WingsDragonfly-dragonfly_primary_front = Wings
 marking-WingsDragonfly-dragonfly_secondary_front = Tail
 
-marking-WingsLanterfly = Wings (Lanternfly)
+marking-WingsLanternfly = Wings (Lanternfly)
 marking-WingsLanternfly-lanternfly_neck = Neck
 marking-WingsLanternfly-lanternfly_primary_front = Wings
 
@@ -264,6 +265,7 @@ marking-WingsPyrausta-pyr_stripes_front = Stripes
 
 marking-MothWingsDefault-default_neck = Neck
 marking-MothWingsDefault-default_primary_front = Wing
+marking-MothWingsDefault-default_secondary_front = Spots
 
 marking-MothWingsCharred-charred_neck = Neck
 marking-MothWingsCharred-charred_primary_front = Wing
@@ -281,6 +283,7 @@ marking-MothWingsFan-fan_primary_front = Wing
 
 marking-MothWingsDfan-dfan_neck = Neck
 marking-MothWingsDfan-dfan_primary_front = Wing
+marking-MothWingsDFan-dfan_secondary_front = Stripes
 
 marking-MothWingsFeathery-feathery_neck = Neck
 marking-MothWingsFeathery-feathery_primary_front = Wing
@@ -335,7 +338,7 @@ marking-MothWingsWhitefly-whitefly_primary_front = Wing
 marking-MothWingsWitchwing-witchwing_neck = Neck
 marking-MothWingsWitchwing-witchwing_primary_front = Wing
 
-marking-MothWingsUnderwing-undering_neck = Neck
+marking-MothWingsUnderwing-underwing_neck = Neck
 marking-MothWingsUnderwing-underwing_primary_front = Primary
 marking-MothWingsUnderwing-underwing_secondary_front = Secondary
 
