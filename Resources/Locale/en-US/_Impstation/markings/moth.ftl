@@ -192,64 +192,151 @@ marking-AntennaShort-nub = Antennae
 # Tail
 
 marking-LunaWings = Wings (Luna Moth)
-marking-LunaWings-luna1 = Wings
-marking-LunaWings-luna2 = Spots
+marking-LunaWings-luna_neck = Neck
+marking-LunaWings-luna_primary_front = Wings
+marking-LunaWings-luna_secondary_front = Spots
 
 marking-MothBee = Wings (Bumblebee)
-marking-MothBee-bee1 = Outer stripes
-marking-MothBee-bee2 = Wings
-marking-MothBee-bee3 = Inner stripe
+marking-MothBee-bee_neck = Neck
+marking-MothBee-bee_primary_front = Wings
+marking-MothBee-bee_secondary_front = Outer stripes
+marking-MothBee-bee_tertiary_front = Inner stripe
 
 marking-MothBeetleTail = Wings (Junebug)
-marking-MothBeetleTail-beetle1 = Outline
-marking-MothBeetleTail-beetle2 = Wings
-marking-MothBeetleTail-beetle3 = Shine
+marking-MothBeetleTail-beetle_neck = Neck
+marking-MothBeetleTail-beetle_primary_front = Outline
+marking-MothBeetleTail-beetle_secondary_front = Wings
 
 marking-MothFirefly = Wings (Firefly Underlay)
-marking-MothFirefly-firefly2 = Firefly Wings
+marking-MothFirefly-firefly_neck = Neck
+marking-MothFirefly-firefly_primary_front = Firefly Wings
 
 marking-MothFireflyOverlay = Firefly (Overlay)
-marking-MothFireflyOverlay-firefly1 = Firefly (Overlay)
+marking-MothFireflyOverlay-firefly_secondary_front = Firefly (Overlay)
 
 marking-MothGlasswing = Wings (Glasswing)
-marking-MothGlasswing-glasswing1 = Outer
-marking-MothGlasswing-glasswing2 = Inner
-marking-MothGlasswing-glasswing3 = Stripe
+marking-MothGlasswing-glasswing_neck = Neck
+marking-MothGlasswing-glasswing_primary_front = Inner
+marking-MothGlasswing-glasswing_secondary_front = Outer
+marking-MothGlasswing-glasswing_tertiary_front = Stripe
 
 marking-MothRhinoBeetle = Whings (Rhino Beetle)
-marking-MothRhinoBeetle-rhinobeetle1 = Outline
-marking-MothRhinoBeetle-rhinobeetle2 = Shine
-marking-MothRhinoBeetle-rhinobeetle3 = Wings
+marking-MothRhinoBeetle-rhinobeetle_neck = Neck
+marking-MothRhinoBeetle-rhinobeetle_primary_front = Outline
+marking-MothRhinoBeetle-rhinobeetle_secondary_front = Wings
 
 marking-MothSnoth = Wings (Snoth)
-marking-MothSnoth-snoth1 = Wings
-marking-MothSnoth-snoth2 = Shell
+marking-MothSnoth-snoth_neck = Neck
+marking-MothSnoth-snoth_primary_front = Wings
+marking-MothSnoth-snoth_secondary_front = Shell
 
 marking-MothTrueButterfly = Wings (Rainbow)
-marking-MothTrueButterfly-truebutterfly1 = Stripes
-marking-MothTrueButterfly-truebutterfly2 = Dots
-marking-MothTrueButterfly-truebutterfly3 = Wings
+marking-MothTrueButterfly-truebutterfly_neck = Neck
+marking-MothTrueButterfly-truebutterfly_primary_front = Wings
+marking-MothTrueButterfly-truebutterfly_secondary_front = Stripes
+marking-MothTrueButterfly-truebutterfly_tertiary_front = Dots
 
 marking-WingsBackstabbed = Wings (Backstabbed)
-marking-WingsBackstabbed-backstabbed = Wings
+marking-WingsBackstabbed-backstabbed_neck = Neck
+marking-WingsBackstabbed-backstabbed_primary_front = Wings
 
 marking-WingsFly = Wings (Fly)
-marking-WingsFly-fly1 = Neck
-marking-WingsFly-fly2 = Wings
-marking-WingsFly-fly3 = Tail
+marking-WingsFly-fly_neck = Neck
+marking-WingsFly-fly_primary_front = Wings
+marking-WingsFly-fly_secondary_front = Tail
 
 marking-WingsDragonfly = Wings (Dragonfly)
-marking-WingsDragonfly-dragonfly1 = Neck
-marking-WingsDragonfly-dragonfly2 = Wings
-marking-WingsDragonfly-dragonfly3 = Tail
+marking-WingsDragonfly-dragonfly_neck = Neck
+marking-WingsDragonfly-dragonfly_primary_front = Wings
+marking-WingsDragonfly-dragonfly_secondary_front = Tail
 
 marking-WingsLanterfly = Wings (Lanternfly)
-marking-WingsLanterfly-lanternfly = Wings
+marking-WingsLanternfly-lanternfly_neck = Neck
+marking-WingsLanternfly-lanternfly_primary_front = Wings
 
 marking-WingsPyrausta = Wings (Pyrausta)
 marking-WingsPyrausta-pyr_neck = Neck
 marking-WingsPyrausta-pyr_wing_front = Wings
 marking-WingsPyrausta-pyr_inner_front = Inner wing
 marking-WingsPyrausta-pyr_stripes_front = Stripes
+
+# Tail, upstream variations
+
+marking-MothWingsDefault-default = Wing
+marking-MothWingsDefault = Wings (Default)
+
+marking-MothWingsCharred-charred = Wing
+marking-MothWingsCharred = Wings (Charred)
+
+marking-MothWingsDbushy-dbushy_primary = Primary
+marking-MothWingsDbushy-dbushy_secondary = Secondary
+marking-MothWingsDbushy = Wings (Dark & Bushy)
+
+marking-MothWingsDeathhead-deathhead_primary = Primary
+marking-MothWingsDeathhead-deathhead_secondary = Secondary
+marking-MothWingsDeathhead = Wings (Death's-Head)
+
+marking-MothWingsFan-fan = Wing
+marking-MothWingsFan = Wings (Fan)
+
+marking-MothWingsDfan-dfan = Wing
+marking-MothWingsDfan = Wings (Dark & Fan)
+
+marking-MothWingsFeathery-feathery = Wing
+marking-MothWingsFeathery = Wings (Feathery)
+
+marking-MothWingsFirewatch-firewatch_primary = Primary
+marking-MothWingsFirewatch-firewatch_secondary = Secondary
+marking-MothWingsFirewatch = Wings (Firewatch)
+
+marking-MothWingsGothic-gothic = Wing
+marking-MothWingsGothic = Wings (Gothic)
+
+marking-MothWingsJungle-jungle = Wing
+marking-MothWingsJungle = Wings (Jungle)
+
+marking-MothWingsLadybug-ladybug = Wing
+marking-MothWingsLadybug = Wings (Ladybug)
+
+marking-MothWingsMaple-maple_primary = Primary
+marking-MothWingsMaple-maple_secondary = Secondary
+marking-MothWingsMaple = Wings (Maple)
+
+marking-MothWingsMoffra-moffra_primary = Primary
+marking-MothWingsMoffra-moffra_secondary = Secondary
+marking-MothWingsMoffra = Wings (Moffra)
+
+marking-MothWingsOakworm = Wings (Oak Worm)
+marking-MothWingsOakworm-oakworm = Wing
+
+marking-MothWingsPlasmafire = Wings (Plasmafire)
+marking-MothWingsPlasmafire-plasmafire_primary = Primary
+marking-MothWingsPlasmafire-plasmafire_secondary = Secondary
+
+marking-MothWingsPointy = Wings (Pointy)
+marking-MothWingsPointy-pointy = Wing
+
+marking-MothWingsRoyal = Wings (Royal)
+marking-MothWingsRoyal-royal_primary = Primary
+marking-MothWingsRoyal-royal_secondary = Secondary
+
+marking-MothWingsStellar = Wings (Stellar)
+marking-MothWingsStellar-stellar = Wing
+
+marking-MothWingsStriped = Wings (Striped)
+marking-MothWingsStriped-striped = Wing
+
+marking-MothWingsSwirly = Wings (Swirly)
+marking-MothWingsSwirly-swirly = Wing
+
+marking-MothWingsWhitefly = Wings (White Fly)
+marking-MothWingsWhitefly-whitefly = Wing
+
+marking-MothWingsWitchwing = Wings (Witch Wing)
+marking-MothWingsWitchwing-witchwing = Wing
+
+marking-MothWingsUnderwing = Wings (Underwing)
+marking-MothWingsUnderwing-underwing_primary = Primary
+marking-MothWingsUnderwing-underwing_secondary = Secondary
 
 # RArmExtension
