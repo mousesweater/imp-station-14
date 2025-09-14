@@ -173,15 +173,13 @@
     state: underwing_secondary
 
 # Wings
-# EVERYTHING UNDER WINGS HAS IMPSTATION MODIFICATION!!!! GOOD FUCKING LUCK!!!
-# for passing travelers, the edits are all to do with the layering. this layering lets moths finally be free of shrinkwrapping, a phenomenon where wings layer OVER clothing causing a nasty look
 
 - type: marking
   id: MothWingsDefault
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start 
     default_neck: TailBehindBackpack
     default_primary_behind: TailBehind
     default_primary_front: TailBehindBackpack
@@ -200,14 +198,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: default_secondary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: default_secondary_front
+    state: default_secondary_front # imp edit end
 
 - type: marking
   id: MothWingsCharred
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     charred_neck: TailBehindBackpack
     charred_primary_behind: TailBehind
     charred_primary_front: TailBehindBackpack
@@ -219,14 +217,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: charred_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: charred_primary_front
+    state: charred_primary_front # imp edit end
 
 - type: marking
   id: MothWingsDbushy
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     dbushy_neck: TailBehindBackpack
     dbushy_primary_behind: TailBehind
     dbushy_primary_front: TailBehindBackpack
@@ -245,14 +243,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: dbushy_secondary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: dbushy_secondary_front
+    state: dbushy_secondary_front # imp edit end
 
 - type: marking
   id: MothWingsDeathhead
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     deathhead_neck: TailBehindBackpack
     deathhead_primary_behind: TailBehind
     deathhead_primary_front: TailBehindBackpack
@@ -271,14 +269,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: deathhead_secondary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: deathhead_secondary_front
+    state: deathhead_secondary_front # imp edit end
 
 - type: marking
   id: MothWingsFan
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     fan_neck: TailBehindBackpack
     fan_primary_behind: TailBehind
     fan_primary_front: TailBehindBackpack
@@ -297,14 +295,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: fan_secondary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: fan_secondary_front
+    state: fan_secondary_front # imp edit end
 
 - type: marking
   id: MothWingsDfan
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     dfan_neck: TailBehindBackpack
     dfan_primary_behind: TailBehind
     dfan_primary_front: TailBehindBackpack
@@ -323,14 +321,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: dfan_secondary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: dfan_secondary_front
+    state: dfan_secondary_front # imp edit end
 
 - type: marking
   id: MothWingsFeathery
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     feathery_neck: TailBehindBackpack
     feathery_primary_behind: TailBehind
     feathery_primary_front: TailBehindBackpack
@@ -342,14 +340,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: feathery_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: feathery_primary_front
+    state: feathery_primary_front # imp edit end
 
 - type: marking
   id: MothWingsFirewatch
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     firewatch_neck: TailBehindBackpack
     firewatch_primary_behind: TailBehind
     firewatch_primary_front: TailBehindBackpack
@@ -368,14 +366,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: firewatch_secondary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: firewatch_secondary_front
+    state: firewatch_secondary_front # imp edit end
 
 - type: marking
   id: MothWingsGothic
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     gothic_neck: TailBehindBackpack
     gothic_primary_behind: TailBehind
     gothic_primary_front: TailBehindBackpack
@@ -394,14 +392,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: gothic_secondary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: gothic_secondary_front
+    state: gothic_secondary_front # imp edit end
 
 - type: marking
   id: MothWingsJungle
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     jungle_neck: TailBehindBackpack
     jungle_primary_behind: TailBehind
     jungle_primary_front: TailBehindBackpack
@@ -413,14 +411,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: jungle_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: jungle_primary_front
+    state: jungle_primary_front # imp edit end
 
 - type: marking
   id: MothWingsLadybug
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     ladybug_neck: TailBehindBackpack
     ladybug_primary_behind: TailBehind
     ladybug_primary_front: TailBehindBackpack
@@ -435,14 +433,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: ladybug_primary_front
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: ladybug_secondary_front
+    state: ladybug_secondary_front # imp edit end
 
 - type: marking
   id: MothWingsMaple
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     maple_neck: TailBehindBackpack
     maple_primary_behind: TailBehind
     maple_primary_front: TailBehindBackpack
@@ -461,14 +459,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: maple_secondary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: maple_secondary_front
+    state: maple_secondary_front # imp edit end
 
 - type: marking
   id: MothWingsMoffra
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     moffra_neck: TailBehindBackpack
     moffra_neck_secondary: TailBehindBackpack
     moffra_primary_behind: TailBehind
@@ -491,14 +489,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: moffra_secondary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: moffra_secondary_front
+    state: moffra_secondary_front # imp edit end
 
 - type: marking
   id: MothWingsOakworm
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     oakworm_neck: TailBehindBackpack
     oakworm_primary_behind: TailBehind
     oakworm_primary_front: TailBehindBackpack
@@ -510,14 +508,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: oakworm_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: oakworm_primary_front
+    state: oakworm_primary_front # imp edit end
 
 - type: marking
   id: MothWingsPlasmafire
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     plasmafire_neck: TailBehindBackpack
     plasmafire_primary_behind: TailBehind
     plasmafire_primary_front: TailBehindBackpack
@@ -536,14 +534,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: plasmafire_secondary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: plasmafire_secondary_front
+    state: plasmafire_secondary_front # imp edit end
 
 - type: marking
   id: MothWingsPointy
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     pointy_neck: TailBehindBackpack
     pointy_primary_behind: TailBehind
     pointy_primary_front: TailBehindBackpack
@@ -555,14 +553,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: pointy_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: pointy_primary_front
+    state: pointy_primary_front # imp edit end
 
 - type: marking
   id: MothWingsRoyal
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     royal_neck: TailBehindBackpack
     royal_primary_behind: TailBehind
     royal_primary_front: TailBehindBackpack
@@ -581,14 +579,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: royal_secondary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: royal_secondary_front
+    state: royal_secondary_front # imp edit end
 
 - type: marking
   id: MothWingsStellar
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     stellar_neck: TailBehindBackpack
     stellar_primary_behind: TailBehind
     stellar_primary_front: TailBehindBackpack
@@ -600,14 +598,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: stellar_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: stellar_primary_front
+    state: stellar_primary_front # imp edit end
 
 - type: marking
   id: MothWingsStriped
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     striped_neck: TailBehindBackpack
     striped_primary_behind: TailBehind
     striped_primary_front: TailBehindBackpack
@@ -619,14 +617,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: striped_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: striped_primary_front
+    state: striped_primary_front # imp edit end
 
 - type: marking
   id: MothWingsSwirly
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     swirly_neck: TailBehindBackpack
     swirly_primary_behind: TailBehind
     swirly_primary_front: TailBehindBackpack
@@ -638,14 +636,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: swirly_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: swirly_primary_front
+    state: swirly_primary_front # imp edit end
 
 - type: marking
   id: MothWingsWhitefly
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     whitefly_neck: TailBehindBackpack
     whitefly_primary_behind: TailBehind
     whitefly_primary_front: TailBehindBackpack
@@ -657,14 +655,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: whitefly_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: whitefly_primary_front
+    state: whitefly_primary_front # imp edit end
 
 - type: marking
   id: MothWingsWitchwing
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     witchwing_neck: TailBehindBackpack
     witchwing_primary_behind: TailBehind
     witchwing_primary_front: TailBehindBackpack
@@ -676,14 +674,14 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: witchwing_primary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: witchwing_primary_front
+    state: witchwing_primary_front # imp edit end
 
 - type: marking
   id: MothWingsUnderwing
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Moth]
-  layering:
+  layering: # imp edit start
     underwing_neck: TailBehindBackpack
     underwing_primary_behind: TailBehind
     underwing_primary_front: TailBehindBackpack
@@ -702,7 +700,7 @@
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
     state: underwing_secondary_behind
   - sprite: _Impstation/Mobs/Customization/Moth/taillayers.rsi
-    state: underwing_secondary_front
+    state: underwing_secondary_front # imp edit end
 
 # Body markings:
 # Charred
