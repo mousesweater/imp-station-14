@@ -9,7 +9,7 @@
   - type: Item
     storedOffset: 0,-3
   - type: Edible
-    transferAmount: 3
+    transferAmount: 3 # 3 cartoon bites
   - type: Sprite
     sprite: _Impstation/Objects/Consumable/Food/hotdog_sequence.rsi
     layers:
@@ -19,8 +19,8 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        canReact: false # Dont want cause reactions inside tacos after merging ingredients
-        maxVol: 10
+        canReact: true
+        maxVol: 15
         reagents:
         - ReagentId: Nutriment
           Quantity: 6.66
@@ -32,8 +32,8 @@
     minLayerOffset: -0.02, 0
     maxLayerOffset: 0.00, 0
     nameGeneration: food-sequence-hotdog-gen
-#    contentSeparator: ""
   - type: Appearance
+  - type: FoodMetamorphableByAdding
 
 # non-modular dogs. you'll make more non-modular dogs right
 
@@ -52,12 +52,11 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 15
         reagents:
         - ReagentId: Nutriment
-          Quantity: 6
-        - ReagentId: Vitamin
-          Quantity: 4
+          Quantity: 10
+        - ReagentId: Protein
+          Quantity: 5
   - type: Item
     sprite: _Impstation/Objects/Consumable/Food/hotdog.rsi
     shape:
