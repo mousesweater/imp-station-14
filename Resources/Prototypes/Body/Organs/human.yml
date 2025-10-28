@@ -74,6 +74,7 @@
     entries:
       Burger: Brain
       Taco: Brain
+      Hotdog: Brain
   - type: Item
     size: Small
     heldPrefix: brain

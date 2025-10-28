@@ -9,7 +9,7 @@
   description: A length of intestine, cleaned and heavily salted. Grody... possibly delicious?
   components:
   - type: Sprite
-    sprite: _DEN/Objects/Consumable/Food/ingredients.rsi
+    sprite: _DEN/Objects/Consumable/Food/sausage.rsi
     state: sausage_casing
   - type: Item
     size: Small
@@ -53,7 +53,7 @@
   description: A long bundle of sausage-ready intestine-based casing, cleaned and heavily salted. Long enough to cut into multiple pieces.
   components:
   - type: Sprite
-    sprite: _DEN/Objects/Consumable/Food/ingredients.rsi
+    sprite: _DEN/Objects/Consumable/Food/sausage.rsi
     state: sausage_casing_roll
   - type: Item
     size: Normal

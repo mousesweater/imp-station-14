@@ -18,3 +18,6 @@
           Quantity: 5
         - ReagentId: Protein
           Quantity: 5
+  - type: FoodSequenceElement # imp
+    entries:
+      Hotdog: Sausage

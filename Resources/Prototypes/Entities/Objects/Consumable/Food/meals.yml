@@ -81,6 +81,7 @@
   - type: FoodSequenceElement # imp
     entries:
       Burger: SpaceFriesBurger
+      Hotdog: SpaceFriesBurger
   - type: Tag # imp
     tags:
     - UnguFood
@@ -115,6 +116,7 @@
   - type: FoodSequenceElement # imp
     entries:
       Burger: CheesyFriesBurger
+      Hotdog: CheesyFriesBurger
   - type: Tag # imp
     tags:
     - UnguFood
@@ -150,6 +152,8 @@
   - type: FoodSequenceElement # imp
     entries:
       Burger: CarrotFriesBurger
+      Hotdog: CarrotFriesBurger
+      
 # Tastes like carrots, salt.
 
 - type: entity
@@ -568,6 +572,7 @@
   - type: FoodSequenceElement # imp
     entries:
       Burger: FriedEggBurger
+      Hotdog: FriedEggBurger
 # Tastes like egg, salt, pepper.
 
 - type: entity
@@ -661,6 +666,7 @@
     - type: FoodSequenceElement # imp
       entries:
         Burger: QuesoBurger
+        Hotdog: QuesoBurger
     - type: SolutionContainerManager # imp
       solutions:
         food:

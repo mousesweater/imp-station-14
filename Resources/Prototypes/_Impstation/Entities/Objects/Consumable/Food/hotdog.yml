@@ -11,11 +11,11 @@
   - type: Edible
     transferAmount: 3
   - type: Sprite
-    sprite: Objects/Consumable/Food/taco_sequence.rsi
+    sprite: _Impstation/Objects/Consumable/Food/hotdog_sequence.rsi
     layers:
-    - state: bun_front
+    - state: bun_bottom
     - map: ["foodSequenceLayers"]
-    - state: bun_back
+    - state: bun_top
   - type: SolutionContainerManager
     solutions:
       food:
@@ -26,29 +26,29 @@
           Quantity: 6.66
   - type: FoodSequenceStartPoint
     key: Hotdog
-    maxLayers: 3
-    startPosition: -0.15, 0
-    offset: 0.15, 0
-    minLayerOffset: 0, 0
-    maxLayerOffset: 0, 0.05
+    maxLayers: 30
+    startPosition: 0, 0
+    offset: 0, 0.15
+    minLayerOffset: -0.02, 0
+    maxLayerOffset: 0.00, 0
     nameGeneration: food-sequence-hotdog-gen
-    contentSeparator: ", "
+#    contentSeparator: ""
   - type: Appearance
 
-# non-modular dogs
+# non-modular dogs. you'll make more non-modular dogs right
 
 - type: entity
-  abstract: true
   parent: FoodInjectableBase
-  id: FoodHotdogBase
+  id: FoodHotdogPlain
+  name: plain hotdog
+  description: A singular, plain dog. Not even some ketchup?
   components:
   - type: FlavorProfile
     flavors:
       - meaty
-  - type: Edible
-    transferAmount: 3
   - type: Sprite
-    sprite: Objects/Consumable/Food/taco.rsi
+    sprite: _Impstation/Objects/Consumable/Food/hotdog.rsi
+    state: hotdog_plain
   - type: SolutionContainerManager
     solutions:
       food:
@@ -59,10 +59,14 @@
         - ReagentId: Vitamin
           Quantity: 4
   - type: Item
-    sprite: Objects/Consumable/Food/taco.rsi
+    sprite: _Impstation/Objects/Consumable/Food/hotdog.rsi
+    state: hotdog_plain
     shape:
     - 0,0,1,0
     storedOffset: 0,1
   - type: Tag
     tags:
       - Meat
+  - type: FoodSequenceElement
+    entries:
+      Hotdog: Hotdogdog

@@ -91,7 +91,7 @@
   - type: FoodSequenceElement # imp
     entries:
       Burger: EggshellsBurger
-
+      Hotdog: EggshellsBurger
 # Egg
 
 - type: entity

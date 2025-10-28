@@ -586,3 +586,14 @@
     FoodBanana: 1
     MonkeyCubeSanitized: 1
   recipeType: Oven # Frontier
+
+- type: microwaveMealRecipe
+  id: RecipeHotdogPlain
+  name: plain hotdog
+  result: FoodHotdogPlain
+  group: Savory
+  time: 10
+  solids:
+    FoodMeatSausage: 1
+    FoodHotdogBun: 1
+  recipeType: Microwave
