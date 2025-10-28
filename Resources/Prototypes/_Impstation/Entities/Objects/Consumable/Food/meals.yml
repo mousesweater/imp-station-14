@@ -29,7 +29,7 @@
   - type: FoodSequenceElement
     entries:
       Burger: FinfinSashimiBurger
-      Hotdog: FinfinDogdog
+      Hotdog: FinfinSashimiBurger
 
 - type: entity
   parent: FoodMealBase

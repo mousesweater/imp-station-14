@@ -146,7 +146,7 @@
   - type: FoodSequenceElement
     entries:
       Burger: FriedFinfinBurger
-      Hotdog: FriedFinfinDog
+      Hotdog: FriedFinfinBurger
 
 - type: entity
   name: heart carpaccio
@@ -206,7 +206,7 @@
   - type: FoodSequenceElement
     entries:
       Burger: ThavenBurger
-      Hotdog: ThavenDog
+      Hotdog: ThavenBurger
 
 - type: entity
   name: raw kodepiia meat

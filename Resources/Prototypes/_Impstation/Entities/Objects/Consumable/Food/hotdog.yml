@@ -60,7 +60,6 @@
           Quantity: 4
   - type: Item
     sprite: _Impstation/Objects/Consumable/Food/hotdog.rsi
-    state: hotdog_plain
     shape:
     - 0,0,1,0
     storedOffset: 0,1
