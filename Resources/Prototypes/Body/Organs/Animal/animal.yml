@@ -73,7 +73,7 @@
 
 - type: entity
   id: OrganAnimalStomach
-  parent: [ButcherIntoIntestineBase, BaseAnimalOrgan] # DEN - Butcher into sausage casing
+  parent: BaseAnimalOrgan
   name: animal stomach
   categories: [ HideSpawnMenu ]
   components:
