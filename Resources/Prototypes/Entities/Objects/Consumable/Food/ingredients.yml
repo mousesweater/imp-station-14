@@ -801,7 +801,7 @@
     entries:
       Taco: CheeseTaco
       Burger: CheeseBurger
-      Hotdog: CheeseTaco
+      Hotdog: CheeseBurger #imp
   - type: Item
     size: Tiny
     storedOffset: 0,-3
