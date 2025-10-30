@@ -152,8 +152,7 @@
   - type: FoodSequenceElement # imp
     entries:
       Burger: CarrotFriesBurger
-      Hotdog: CarrotFriesBurger
-      
+      Hotdog: CarrotFriesBurger 
 # Tastes like carrots, salt.
 
 - type: entity

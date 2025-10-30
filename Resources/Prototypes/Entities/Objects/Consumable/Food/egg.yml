@@ -92,6 +92,7 @@
     entries:
       Burger: EggshellsBurger
       Hotdog: EggshellsBurger
+
 # Egg
 
 - type: entity
