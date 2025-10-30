@@ -20,8 +20,9 @@
   cost: 2 # Has pros and cons, not sure
   components:
     - type: FixtureDensityModifier
-      min: 100
-      factor: 1.33
+      min: 30
+      max: 1000
+      factor: 1.25
 
 - type: trait
   id: UltraHefty
@@ -33,8 +34,9 @@
   cost: 4 # Has pros and cons, not sure
   components:
     - type: FixtureDensityModifier
-      min: 100
-      factor: 2
+      min: 30
+      max: 1000
+      factor: 1.5
 
 - type: trait
   id: UltraPetite
@@ -46,5 +48,6 @@
   cost: 4 # Has pros and cons, not sure
   components:
     - type: FixtureDensityModifier
-      min: 100
-      factor: 0.33
+      min: 30
+      max: 1000
+      factor: 0.75

@@ -3,12 +3,12 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-using Content.Shared.Contests;
-using Content.Shared.Floofstation.Traits.Components;
+using Content.Shared._EE.Contests;
+using Content.Shared._Floof.Traits.Components;
 using Robust.Shared.Physics;
 using Robust.Shared.Physics.Systems;
 
-namespace Content.Shared.Floofstation.Traits;
+namespace Content.Shared._Floof.Traits;
 
 public sealed partial class TraitStatModifierSystem : EntitySystem
 {

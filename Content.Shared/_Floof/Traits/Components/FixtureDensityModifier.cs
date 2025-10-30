@@ -3,7 +3,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-namespace Content.Shared.Floofstation.Traits.Components;
+namespace Content.Shared._Floof.Traits.Components;
 
 [RegisterComponent]
 public sealed partial class FixtureDensityModifierComponent : Component
