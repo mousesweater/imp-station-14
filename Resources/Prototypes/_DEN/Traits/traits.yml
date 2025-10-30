@@ -1,0 +1,50 @@
+# SPDX-FileCopyrightText: 2025 ElusiveCoin
+# SPDX-FileCopyrightText: 2025 Jakumba
+# SPDX-FileCopyrightText: 2025 Rosycup
+# SPDX-FileCopyrightText: 2025 Tabitha
+# SPDX-FileCopyrightText: 2025 TheOneTrueWolfio
+# SPDX-FileCopyrightText: 2025 foxcurl
+# SPDX-FileCopyrightText: 2025 juniwoofs
+# SPDX-FileCopyrightText: 2025 portfiend
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
+
+- type: trait
+  id: Hefty
+  name: trait-hefty-name
+  description: trait-hefty-desc
+  category: Traits
+  subcategories:
+    - Weight
+  cost: 2 # Has pros and cons, not sure
+  components:
+    - type: FixtureDensityModifier
+      min: 100
+      factor: 1.33
+
+- type: trait
+  id: UltraHefty
+  name: trait-ultrahefty-name
+  description: trait-ultrahefty-desc
+  category: Traits
+  subcategories:
+    - Weight
+  cost: 4 # Has pros and cons, not sure
+  components:
+    - type: FixtureDensityModifier
+      min: 100
+      factor: 2
+
+- type: trait
+  id: UltraPetite
+  name: trait-ultrapetite-name
+  description: trait-ultrapetite-desc
+  category: Traits
+  subcategories:
+    - Weight
+  cost: 4 # Has pros and cons, not sure
+  components:
+    - type: FixtureDensityModifier
+      min: 100
+      factor: 0.33

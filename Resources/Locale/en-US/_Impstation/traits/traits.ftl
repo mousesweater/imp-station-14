@@ -107,3 +107,19 @@ trait-unadapted-to-space-desc = Your body hasn't adapted to space, making you ta
 
 trait-vowelrotation-name = Vowel rotation
 trait-vowelrotation-desc = Yua'ri frum en udd curnir uf speci whiri iviry vuwil os shoftid uvir by uni. AEIOU -> EIOUA
+
+trait-hefty-name = Hefty
+trait-hefty-desc = You're heavier than average.
+                       Incompatible with Petite, UltraPetite, and UltraHefty.
+
+trait-petite-name = Petite
+trait-petite-desc = You're lighter than average.
+                       Incompatible with Hefty, UltraPetite, and UltraHefty.
+
+trait-ultrahefty-name = UltraHefty
+trait-ultrahefty-desc = You're much heavier than average.
+                       Incompatible with Petite, UltraPetite, and Hefty.
+
+trait-ultrapetite-name = UltraPetite
+trait-ultrapetite-desc = You're much lighter than average.
+                       Incompatible with Petite, Hefty, and UltraHefty.
