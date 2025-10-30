@@ -10,8 +10,10 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
+# originally a floof trait, lightweight, remixed on den and remixed again for impstation
+
 - type: trait
-  id: Hefty
+  id: Hefty #based on ultra heavyweight
   name: trait-hefty-name
   description: trait-hefty-desc
   category: Traits
@@ -19,35 +21,21 @@
     - Weight
   cost: 2 # Has pros and cons, not sure
   components:
-    - type: FixtureDensityModifier
+    - type: FixtureDensityModifier #keep in mind the minimum species density and the maximum species density when editing
       min: 30
       max: 1000
-      factor: 1.25
+      factor: 1.5 # original: 2 
 
 - type: trait
-  id: UltraHefty
-  name: trait-ultrahefty-name
-  description: trait-ultrahefty-desc
+  id: Slight # based on ultra lightweight. lightweight is already taken sooo...
+  name: trait-slight-name
+  description: trait-slight-desc
   category: Traits
   subcategories:
     - Weight
-  cost: 4 # Has pros and cons, not sure
+  cost: 2 # Has pros and cons, not sure
   components:
-    - type: FixtureDensityModifier
+    - type: FixtureDensityModifier #keep in mind the minimum species density and the maximum species density when editing
       min: 30
       max: 1000
-      factor: 1.5
-
-- type: trait
-  id: UltraPetite
-  name: trait-ultrapetite-name
-  description: trait-ultrapetite-desc
-  category: Traits
-  subcategories:
-    - Weight
-  cost: 4 # Has pros and cons, not sure
-  components:
-    - type: FixtureDensityModifier
-      min: 30
-      max: 1000
-      factor: 0.75
+      factor: 0.75 # original: .33

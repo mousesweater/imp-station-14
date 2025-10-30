@@ -110,16 +110,8 @@ trait-vowelrotation-desc = Yua'ri frum en udd curnir uf speci whiri iviry vuwil 
 
 trait-hefty-name = Hefty
 trait-hefty-desc = You're heavier than average.
-                       Incompatible with Petite, UltraPetite, and UltraHefty.
+                       Incompatible with Slight.
 
-trait-petite-name = Petite
-trait-petite-desc = You're lighter than average.
-                       Incompatible with Hefty, UltraPetite, and UltraHefty.
-
-trait-ultrahefty-name = UltraHefty
-trait-ultrahefty-desc = You're much heavier than average.
-                       Incompatible with Petite, UltraPetite, and Hefty.
-
-trait-ultrapetite-name = UltraPetite
-trait-ultrapetite-desc = You're much lighter than average.
-                       Incompatible with Petite, Hefty, and UltraHefty.
+trait-slight-name = Slight
+trait-slight-desc = You're lighter than average.
+                       Incompatible with Hefty.
