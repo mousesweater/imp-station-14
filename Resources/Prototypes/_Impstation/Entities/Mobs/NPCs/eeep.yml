@@ -1,6 +1,6 @@
 - type: entity
   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
-  id: MobEeepBase
+  id: MobEeepBase #true!
   abstract: true
   categories: [ HideSpawnMenu ]
   components:
