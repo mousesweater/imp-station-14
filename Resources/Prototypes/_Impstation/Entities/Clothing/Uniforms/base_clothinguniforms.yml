@@ -8,3 +8,18 @@
     foldVerbText: roll-verb-clothing-jacket
   - type: FoldableClothing
     foldedEquippedPrefix: folded
+
+- type: entity
+  abstract: true
+  parent: UnsensoredClothingUniformBase
+  id: ClothingSwimsuitBase
+  components:
+  - type: HideLayerClothing #youre not allowed to wear your undies under swimsuits. its weeiiird
+    slots:
+    - UndergarmentBottom
+    - UndergarmentTop 
+  - type: ProtectedFromStepTriggers #swimming ritual. be unprotected
+    #slots: WITHOUT_POCKET #WHATS THIS DO
+  - type: Tag
+    tags:
+    - WhitelistChameleon
