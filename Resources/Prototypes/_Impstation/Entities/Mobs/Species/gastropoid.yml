@@ -153,6 +153,8 @@
     hideLayersOnEquip:
     - Hair
     - Snout
+    - UndergarmentBottom #for swimsuits
+    - UndergarmentTop
 
 - type: entity
   parent: BaseSpeciesDummy

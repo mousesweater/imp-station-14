@@ -171,6 +171,8 @@
     - SnoutCover
     - LFoot # those are his hooves you bitch
     - RFoot
+    - UndergarmentBottom #for swimsuits
+    - UndergarmentTop
   - type: JumpAbility
     action: ActionDash
     jumpDistance: 4

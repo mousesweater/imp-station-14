@@ -120,6 +120,8 @@
     - RLeg
     - LFoot
     - RFoot
+    - UndergarmentBottom #for swimsuits
+    - UndergarmentTop
   - type: Inventory
     speciesId: allulalo
     templateId: allulalo

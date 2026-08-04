@@ -54,6 +54,8 @@
     - Hair
     - Snout
     - FacialHair #imp
+    - UndergarmentBottom #imp #for swimsuits
+    - UndergarmentTop #imp
   - type: Inventory
     femaleDisplacements:
       jumpsuit:

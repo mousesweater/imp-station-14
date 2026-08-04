@@ -113,6 +113,8 @@
     hideLayersOnEquip:
     - Hair
     - Snout
+    - UndergarmentBottom #for swimsuits
+    - UndergarmentTop
   - type: HomunculusType
     homunculusType: HomunculusGray
     recipe:

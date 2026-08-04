@@ -21,6 +21,18 @@
     {
       "name": "inhand-right",
       "directions": 4
+    },
+    {
+      "name": "open-equipped-INNERCLOTHING",
+      "directions": 4
+    },
+    {
+      "name": "open-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "open-inhand-right",
+      "directions": 4
     }
   ]
 }

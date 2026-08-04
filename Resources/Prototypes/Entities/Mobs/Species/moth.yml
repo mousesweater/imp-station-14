@@ -11,6 +11,8 @@
     - HeadTop
     - HeadSide #imp
     - Snout #imp
+    - UndergarmentBottom #imp #for swimsuits
+    - UndergarmentTop #imp
   - type: Hunger
   - type: Thirst
   - type: Icon

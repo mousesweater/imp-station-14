@@ -129,7 +129,8 @@
     - HeadTop
     - HeadSide
     - FacialHair
-    - Hair
+    - UndergarmentBottom #imp #for swimsuits
+    - UndergarmentTop #imp 
     markingsDisplacement:
       Hair:
         sizeMaps:

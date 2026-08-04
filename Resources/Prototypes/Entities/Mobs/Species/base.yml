@@ -356,9 +356,6 @@
   - type: Appearance
   - type: HumanoidAppearance
     species: Human
-    hideLayersOnEquip: #imp #take em off!!
-    - UndergarmentBottom
-    - UndergarmentTop
   - type: Body
     prototype: Human
     requiredLegs: 2
