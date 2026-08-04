@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Created by ThatKidConnor for Impstation",
+  "copyright": "based on schoolgirl swimsuit by Hyenh#6078 (313846233099927552), resprited by mousesweater",
   "size": {
     "x": 32,
     "y": 32
@@ -13,10 +13,6 @@
     {
       "name": "equipped-INNERCLOTHING",
       "directions": 4
-    },
-    {
-        "name": "equipped-INNERCLOTHING-ungu",
-        "directions": 4
     },
     {
       "name": "inhand-left",

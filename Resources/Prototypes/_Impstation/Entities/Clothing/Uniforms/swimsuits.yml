@@ -87,7 +87,7 @@
     sprite: _Impstation/Clothing/Uniforms/Other/Swimsuits/swimsuit_magenta.rsi
 
 - type: entity
-  parent: [ClothingSwimsuitBase, ClothingUniformFoldableBase]
+  parent: [ClothingSwimsuitBase]
   id: ClothingSwimsuitBlack
   name: black and white swimsuit
   description: Prevents sunburns specifically on your face!
@@ -96,11 +96,14 @@
     sprite: _Impstation/Clothing/Uniforms/Other/Swimsuits/swimsuit_black.rsi
   - type: Clothing
     sprite: _Impstation/Clothing/Uniforms/Other/Swimsuits/swimsuit_black.rsi
-  #- type: ToggleableClothing
-    #clothingPrototype: ClothingHeadHatHoodSwimsuitBlack #doesn't exist yet, insert
-    #requiredSlot:
-    #- innerclothing
-    #slot: head
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodSwimsuitBlack #doesn't exist yet, insert
+    requiredSlot:
+    - innerclothing
+    slot: head
+  - type: Foldable
+    unfoldVerbText: fold-zip-verb
+    foldVerbText: fold-unzip-verb
 
 - type: entity
   parent: [ClothingSwimsuitBase]

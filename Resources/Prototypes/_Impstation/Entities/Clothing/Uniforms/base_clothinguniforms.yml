@@ -18,8 +18,7 @@
     slots:
     - UndergarmentBottom
     - UndergarmentTop 
-  - type: ProtectedFromStepTriggers #swimming ritual. be unprotected
-    #slots: WITHOUT_POCKET #WHATS THIS DO
   - type: Tag
     tags:
     - WhitelistChameleon
+# i don't have the technology for it yet, but i really wish these didnt have an id slot or pockest
