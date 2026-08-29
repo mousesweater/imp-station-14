@@ -334,7 +334,7 @@
   description: The beaches may be artificial, but you still should dress up for them!
   components:
   - type: VendingMachine
-    pack: BeachDrobeInventory #not complete
+    pack: BeachDrobeInventory
     offState: off
     brokenState: broken
     normalState: normal-unshaded
@@ -345,13 +345,13 @@
   - type: SpeakOnUIClosed
     pack: GenericVendGoodbyes
   - type: Sprite
-    sprite: _Impstation/Structures/Machines/VendingMachines/beachvend.rsi #beachvend? drobe or vend?
+    sprite: _Impstation/Structures/Machines/VendingMachines/beachdrobe.rsi #beachdrobe? drobe or vend?
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
-      shader: unshaded #not complete, make l8r
+      shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: PointLight
