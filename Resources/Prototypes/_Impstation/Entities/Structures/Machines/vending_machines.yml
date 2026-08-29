@@ -357,4 +357,4 @@
   - type: PointLight
     radius: 1.5
     energy: 1.6
-    color: "#86FEFA"
+    color: "#6cfffa"
