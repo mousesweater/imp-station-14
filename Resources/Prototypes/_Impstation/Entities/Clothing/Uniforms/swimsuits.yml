@@ -87,7 +87,7 @@
     sprite: _Impstation/Clothing/Uniforms/Other/Swimsuits/swimsuit_magenta.rsi
 
 - type: entity
-  parent: [ClothingSwimsuitBase, ClothingUniformFoldableBase]
+  parent: [ClothingSwimsuitBase]
   id: ClothingSwimsuitBlack
   name: black and white swimsuit
   description: Prevents sunburns specifically on your face!
@@ -113,7 +113,9 @@
     foldVerbText: fold-unzip-verb
   - type: FoldableClothing
     foldedEquippedPrefix: open
-    foldedHeldPrefix: open
+  - type: ContainerContainer #greycloak has this and greycloak also has folding and hood functions #seeing if this fixes testfail
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
 
 - type: entity
   parent: [ClothingSwimsuitBase]
