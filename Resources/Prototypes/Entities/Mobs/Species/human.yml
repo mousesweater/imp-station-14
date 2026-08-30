@@ -23,8 +23,6 @@
     - FacialHair #imp
     - HeadSide #imp
     - HeadTop #imp
-    - UndergarmentBottom #imp #for swimsuits
-    - UndergarmentTop #imp
   - type: Inventory
     femaleDisplacements:
       jumpsuit:

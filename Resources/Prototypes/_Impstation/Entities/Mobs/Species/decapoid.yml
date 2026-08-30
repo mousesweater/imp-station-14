@@ -190,8 +190,6 @@
     - Hair
     - Snout
     - HeadSide
-    - UndergarmentBottom #for swimsuits
-    - UndergarmentTop
   - type: CarrierOneHand
   - type: CanWieldOneHanded
 

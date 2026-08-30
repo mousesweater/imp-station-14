@@ -72,8 +72,6 @@
     hideLayersOnEquip:
     - Hair
     - Snout
-    - UndergarmentBottom #for swimsuits
-    - UndergarmentTop
   - type: Bloodstream
     bloodReferenceSolution:
       reagents:

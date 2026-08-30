@@ -180,8 +180,6 @@
     - Eyes
     - HeadTop
     - HeadSide #might go back on this
-    - UndergarmentBottom #for swimsuits
-    - UndergarmentTop
   - type: ActionGun
     action: ActionAnomalocaridSpit
     gunProto: AnomalocaridSpitGun

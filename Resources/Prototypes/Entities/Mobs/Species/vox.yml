@@ -156,8 +156,6 @@
     - Hair
     - Tail
     - FacialHair
-    - UndergarmentBottom #still imp #for swimsuits
-    - UndergarmentTop
 
     species: Vox
     undergarmentTop: UndergarmentTopTanktopVox

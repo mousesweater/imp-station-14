@@ -114,8 +114,6 @@
     - HeadTop
     - HeadSide
     - Tail #imp
-    - UndergarmentBottom #imp #for swimsuits
-    - UndergarmentTop #imp 
     undergarmentBottom: UndergarmentBottomBoxersReptilian
   - type: Inventory
     speciesId: reptilian

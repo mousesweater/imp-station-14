@@ -114,8 +114,6 @@
     - Hair
     - RArmExtension
     - Tail
-    - UndergarmentBottom #for swimsuits
-    - UndergarmentTop
   - type: Thirst
   - type: Hunger
     baseDecayRate: 0.15 # 10x default. 6 minutes to hungry and 15.5 minutes to starving
